@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust:exact;
+}
+.sticker-container {
+    width: 63mm;
+    height:38mm;
+    border-radius: 3mm;
+}
+
+.sticker-head {
+    width: 100%;
+    height: 29mm;
+    background-color: #ffcf58;
+    border-radius: 3mm 3mm 0 0;
+    border: solid 2px black;
+}
+
+.sticker-up{
+    width: 100%;
+    height: 13.5mm ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.sticker-logo {
+    width: 15mm;
+    height: 11mm;
+    background-image: url('./sku-icons/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 1mm;
+}
+
+.product-name{
+    width: 35mm;
+    height: 8mm ;
+    background-color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.k-category {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
+    width: 8mm;
+    height: 8mm;
+    background-color: #CA2426;
+    color: white;
+    position: relative;
+    top: -1.25mm;
+    border-radius: 0 2mm 0 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-content{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 5mm;
+    color: #000000;
+}
+
+.suspended-info{
+    width: 40mm;
+    height: 3.4mm;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: 'Roboto', sans-serif; 
+    font-weight:500;
+    font-size: 3mm;
+    position: relative;
+    margin-top: 1.6mm;
+}
+
+.sticker-medium {
+    width: 100%;
+    height: 11mm;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.product-reference{
+    width: 33mm;
+    height: 8mm;
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    :nth-child(2){
+        position: relative;
+        top: -1mm;
+        left: 1.2mm;
+    }
+}
+
+.divs-titles {
+    position: relative;
+    top: -2.3mm;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 200 ;
+    font-size: 2.3mm;
+    text-align: center;
+}
+
+.Copyright {
+    display: inline-flex;
+    height: fit-content;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 200 ;
+    font-size: 2.3mm;
+    height: 3mm;
+    margin-left: 42%; /* Empuja el span hacia la derecha */
+}
+
+.product-quantity {
+    width: 20mm;
+    height: 8mm;
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: column;  
+    :nth-child(2){
+        position: relative;
+        top: -1mm;
+        left: 1.2mm;
+    }
+}
+
+.barcode-container {
+    width: 63mm;
+    height: 10mm;
+    background-color: #FDFDFD;
+    border-radius: 0 0 3mm 3mm;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+    border-bottom: solid 2px black;
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+}
+
+.barcode {
+    width: 52mm;
+    height: 7mm;
+    background-image: url('sku-icons/bardcode.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
